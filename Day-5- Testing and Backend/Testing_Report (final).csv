@@ -1,0 +1,9 @@
+Test Case ID,Test Case Description,Test Steps,Expected Result,Actual Result,Status,Severity Level,Assigned To,Remarks
+TC001,Validate car listing page,Open All categories page> All Data fetched accuraterly,Cars displayed correctly,Cars displayed correctly,Passed,High,-,No issues found
+TC002,Test API error handling,Disconnect API > Refresh page,Show fallback UI with error message,Error message shown,Passed,Medium,-,Handled gracefully
+TC003,Check Rent Now button functionality,Click on Rent now button > Verify car content,show the content of selected car,content shown as expected,Passed,High,-,Works as expected
+TC004,Ensure responsiveness on mobile,Resize browser window > Check layout,Layout adjusts properly to screen size,Responsive layout working as intended but not work properly on one page,Passed,Medium,-,Test successful
+TC005,Validate search bar,write car name> search for  a car,Show car's detail page and show no car available if searched call is not availabale,Shown detail's page and message as expected,Passed,Medium,-,Test successful
+TC006,validate dynamic details page,click on different car> verify car's detail page,Show the details of selected car,Shown as expected,Passed,High,-,Works as expected
+TC007,Validate checkout form,Fill the form> wait to fill all the fields> Rent now Button enabled,Wait for the form to be filled completely and then enable Rent now button,Worked properly for all fields except credit card option,Failled,Low,-,Facing error in Credit card fields 
+TC008,Cross Browsing,Open our website on different browser,Working correctly on every browser ,Working correctly,Passed,Medium,-,Works as expected
